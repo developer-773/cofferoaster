@@ -193,8 +193,8 @@ header{
 
 .collection-item:nth-child(1)::before{
     position: absolute;
-    left: calc(-18%);
-    top: calc(-25%);
+    top: calc(10% - 199px);
+    left: calc(10% - 319px);
     display: block;
     width: 371px;
     height: 371px;
@@ -206,12 +206,12 @@ header{
 
 .collection-item:nth-child(2)::before{
     position: absolute;
-    top: calc(40%);
-    left: calc(-20%);
+    top: 90%;
+    left: 90%;
     display: block;
-    width: 371px;
+    width: 159px;
     height: 371px;
-    background-image: url("../images/right-bottom-leaves.svg");
+    background-image: url("../images/Fill-1.svg");
     background-repeat: no-repeat;
     background-size: contain;
     content: "";
@@ -219,12 +219,12 @@ header{
 
 .collection-item:nth-child(3)::before{
     position: absolute;
-    top: calc(30% + 339px);
-    left: calc(-20%);
+    top: 90%;
+    right: 90%;
     display: block;
     width: 371px;
     height: 316px;
-    background-image: url("../images/right-leaves.svg");
+    background-image: url("../images/Vector.svg");
     background-repeat: no-repeat;
     background-size: contain;
     content: "";
