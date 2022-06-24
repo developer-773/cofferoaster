@@ -113,11 +113,12 @@ header{
 
 .first-section-box-left{
     max-width: 464px;
+    margin-left: 100px;
 }
 
 .first-section-right{
     position: relative;
-    left: 15px;
+    left: 63px;
     width: 710px;
     height: 696px; 
 }
@@ -387,7 +388,8 @@ header{
 
 .cubic-border{
     width: 333px;
-    border: 1px dashed #C99B67;
+    margin-bottom: 16px;
+    border-top: 1px dashed #C99B67;
 }
 
 .company-works-list{
@@ -399,7 +401,7 @@ header{
 .company-works-list-item{
     width: 433px;
     margin-right: 20px;
-    padding: 20px 23px 27px;
+    padding: 20px 40px 40px;
     background-color: #F8F8F2;
 }
 
