@@ -114,6 +114,7 @@ header{
 .first-section-box-left{
     max-width: 464px;
     margin-left: 100px;
+    padding-top: 100px;
 }
 
 .first-section-right{
@@ -462,9 +463,143 @@ footer{
 
 .social-list{
     display: flex;
-
+    
 }
 
 .social-item{
     margin-right: 30px;
+}
+
+        /* ABOUT PAGE'S STYLES */
+
+.wrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 165px;
+}
+
+.collection-main-box::before{
+    position: absolute;
+    top: calc(40% - 171px);
+    left: calc(1% - 368px);
+    display: block;
+    width: 371px;
+    height: 371px;
+    background-image: url(../images/left-leaves.svg);
+    content: "";
+}
+
+.about-box{
+    width: 662px;
+    margin-left: 185px;
+    padding-top: 160px;
+    padding-bottom: 200px;
+    
+}
+
+.about-hero-title{
+    font-weight: var(--font-weight-bold);
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: left;
+}
+
+.about-uncompromissing-section{
+    margin-top: 160px;
+    margin-bottom: 20px;
+    padding: 100px 0;
+}
+
+.about-uncompromissing{
+    position: relative;
+    margin-left: 100px;
+    padding: 0;
+
+
+}
+
+.smile-girl{
+    position: absolute;
+    top: calc(-10%);
+    left: calc(57%);
+}
+
+.uncompromissing-title{
+    display: inline-block;
+    width: 397px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.about-uncompromissing-more{
+    width: 639px;
+    font-size: 18px;
+    line-height: 30px; 
+    color: #FFFFFF; 
+    mix-blend-mode: normal;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.headquarters-section{
+    margin-top: 0;
+}
+
+.works::after{
+    display: none;
+}
+
+.headquarters-item{
+    position: relative;
+    padding: 0;
+    padding: 140px 40px 20px;
+}
+
+.headquarters-item:nth-child(1){
+    padding: 92px 40px 20px;
+}
+
+.headquarters-item::after{
+    position: absolute;
+    top: calc(40% - 114px);
+    right: calc(90% - 345px);
+    display: block;
+    width: 120px;
+    height: 143px;
+    background-image: url(../images/uk.svg);
+    content: "";
+
+}
+
+.headquarters-item:nth-child(2)::after{
+    position: absolute;
+    top: calc(40% - 114px);
+    right: calc(90% - 345px);
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/canada.svg);
+    content: "";
+}
+
+.headquarters-item:nth-child(3)::after{
+    position: absolute;
+    top: calc(40% - 104px);
+    right: calc(90% - 345px);
+    display: block;
+    width: 120px;
+    height: 107px;
+    background-image: url(../images/australia.svg);
+    content: "";
+}
+
+.headquarters-txt-box{
+    width: 180px;
 }
